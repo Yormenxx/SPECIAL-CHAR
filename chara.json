@@ -1,0 +1,130 @@
+[
+    {
+        "char": "'text'",
+        "name": "comillas simples"
+    },
+    {
+        "char": "`text`",
+        "name": "eñe mayuscula"
+    },
+    {
+        "char": "@",
+        "name": "arroba"
+    },
+    {
+        "char": "`${txt}`",
+        "name": "console.log()"
+    },
+    {
+        "char": "{txt}",
+        "name": "texto en llaves"
+    },
+    {
+        "char": "[txt]",
+        "name": "texto en corchetes"
+    },
+    {
+        "char": "'",
+        "name": "comilla simple"
+    },
+    {
+        "char": "\"",
+        "name": "comillas dobles"
+    },
+    {
+        "char": "´",
+        "name": "acento tilde"
+    },
+    {
+        "char": "`",
+        "name": "acento grave backtick"
+    },
+    {
+        "char": "[",
+        "name": "corchete abrir"
+    },
+    {
+        "char": "]",
+        "name": "corchete cerrar"
+    },
+    {
+        "char": "{",
+        "name": "llave abrir"
+    },
+    {
+        "char": "}",
+        "name": "llave cerrar"
+    },
+    {
+        "char": "(",
+        "name": "parentesis abrir"
+    },
+    {
+        "char": ")",
+        "name": "parentesis cerrar"
+    },
+    {
+        "char": "<",
+        "name": "menor que"
+    },
+    {
+        "char": ">",
+        "name": "mayor que"
+    },
+    {
+        "char": "=",
+        "name": "igual"
+    },
+    {
+        "char": "!",
+        "name": "not exclamacion"
+    },
+    {
+        "char": "&",
+        "name": "ampersand"
+    },
+    {
+        "char": "|",
+        "name": "pipe barra vertical"
+    },
+    {
+        "char": ";",
+        "name": "punto y coma"
+    },
+    {
+        "char": ":",
+        "name": "dos puntos"
+    },
+    {
+        "char": "_",
+        "name": "guion bajo underscore"
+    },
+    {
+        "char": "*",
+        "name": "asterisco"
+    },
+    {
+        "char": "/",
+        "name": "slash diagonal"
+    },
+    {
+        "char": "\\",
+        "name": "contrabarra backslash"
+    },
+    {
+        "char": "#",
+        "name": "almohadilla numeral"
+    },
+    {
+        "char": "$",
+        "name": "dolar"
+    },
+    {
+        "char": "%",
+        "name": "porcentaje"
+    },
+    {
+        "char": "€",
+        "name": "euro moneda"
+    }
+]
