@@ -26,7 +26,7 @@ cat <<EOF > "$DESKTOP_DIR/special-char.desktop"
 [Desktop Entry]
 Name=Special Char
 Comment=Herramienta para gestión de caracteres especiales
-Exec=$APP_DIR/venv/bin/python3 $APP_DIR/main.py
+Exec=bash -c "$APP_DIR/venv/bin/python3 $APP_DIR/main.py; echo; read -p 'Presiona Enter para cerrar...' -n1 -s"
 Icon=$APP_DIR/icon.png
 Terminal=true
 Type=Application
