@@ -28,7 +28,6 @@ cat <<EOF > "$DESKTOP_DIR/special-char.desktop"
 [Desktop Entry]
 Name=Special Char
 Comment=Herramienta para gestión de caracteres especiales
-# Ejecutamos Python directamente sin envolverlo en bash
 Exec=$APP_DIR/venv/bin/python3 $APP_DIR/main.py
 Icon=$APP_DIR/letraA.jpg
 Terminal=false

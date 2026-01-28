@@ -12,23 +12,25 @@ from PyQt6.QtCore import Qt, QPoint
 class CharacterApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.file_name = 'chara.json'
+        self.base_dir = os.path.dirname(os.path.abspath(__file__));
+        self.file_path = os.path.join(self.base_dir, 'chara.json');
+
         self.all_chars = self.load_data()
         self.buttons = []
         self.init_ui()
 
     def load_data(self):
-        if not os.path.exists(self.file_name):
+        if not os.path.exists(self.file_path):
             return []
         try:
-            with open(self.file_name, 'r', encoding='utf-8') as f:
+            with open(self.file_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             return []
 
     def save_data(self):
         try:
-            with open(self.file_name, 'w', encoding='utf-8') as f:
+            with open(self.file_path, 'w', encoding='utf-8') as f:
                 json.dump(self.all_chars, f, indent=4, ensure_ascii=False)
         except Exception as e:
             print(f"Error al guardar: {e}")
