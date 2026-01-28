@@ -25,12 +25,13 @@ else
 fi
 
 # 3. Crear el lanzador .desktop
-echo "🖥️  Creando acceso directo en el sistema..."
+echo "🖥️  Creando acceso directo optimizado..."
 cat <<EOF > "$DESKTOP_DIR/special-char.desktop"
 [Desktop Entry]
 Name=Special Char
 Comment=Herramienta para gestión de caracteres especiales
-Exec=bash -c "cd $APP_DIR && $APP_DIR/venv/bin/python3 $APP_DIR/main.py; echo; read -p 'Presiona Enter para cerrar...' -n1 -s"
+# Añadimos '2>/dev/null' justo después del comando de python
+Exec=bash -c "cd $APP_DIR && $APP_DIR/venv/bin/python3 $APP_DIR/main.py 2>/dev/null; echo; read -p 'Presiona Enter para cerrar...' -n1 -s"
 Icon=$APP_DIR/icon.png
 Terminal=true
 Type=Application
