@@ -1,6 +1,6 @@
-git clone https://github.com/Yormenxx/SPECIAL-CHAR.git
-cd SPECIAL-CHAR
+1. git clone https://github.com/Yormenxx/SPECIAL-CHAR.git
+2. cd SPECIAL-CHAR
 
 # Give execution permissions and run the installer
-chmod +x install.sh
-./install.sh
+3. chmod +x install.sh
+4. ./install.sh
