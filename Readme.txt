@@ -9,5 +9,5 @@ Solo necesitas tener Python instalado. Clonar el repositorio y ejecutar:
 git clone https://github.com/Yormenxx/SPECIAL-CHAR.git
 cd SPECIAL-CHAR
 
-chmod +x ejecutar.sh
+chmod +x install.sh
 ./install.sh
