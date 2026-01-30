@@ -4,3 +4,4 @@
 # Give execution permissions and run the installer
 3. chmod +x install.sh
 4. ./install.sh
+[image.png](https://postimg.cc/211G9qht)
